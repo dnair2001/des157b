@@ -4,13 +4,22 @@
 
 body {
     background-color: #333;
-    color: rgb(235, 235, 235);
+    color: #edffff;
     transition: all 2s;
 }
 
 body.switch {
-    background-color: rgb(235, 235, 235);
+    background-color: #edffff;
     color: #333;
+}
+
+body.switch a{
+    color: #333;
+}
+
+body.switch a:hover {
+    background-color: #9DE5DD;
+    color: white;
 }
 
 #container {
@@ -29,12 +38,123 @@ header {
 
 #banner {
     position: relative;
-    display: flex;
+    /* display: flex; */
     width: 1100px;
     height: 250px;
     margin: auto;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(34, 31, 31);
     overflow: hidden;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.seen {
+    visibility: visible;
+}
+
+#grass, #grass2 {
+    width: 1100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#cloud1, #lightcloud1 {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+#cloud2 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+#lightcloud2 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+#cloud3, #lightcloud3 {
+    position: absolute;
+    top: 50px;
+    right: 10%;
+}
+
+#lightcloud4 {
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+}
+
+#star1 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+#star2 {
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+}
+
+#star3 {
+    position: absolute;
+    top: 5%;
+    right: 40%;
+}
+
+#star4 {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+#star5 {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+#star6 {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+#star7 {
+    position: absolute;
+    top: 70%;
+    right: 50%;
+}
+
+#sleepingDog {
+    position: absolute;
+    bottom: 2%;
+    left: 17%;
+}
+
+#dog {
+    position: absolute;
+    bottom: 2%;
+    right: 15%;
+}
+
+#flower1 {
+    position: absolute;
+    bottom: 6%;
+    left: 10%;
+}
+
+#flower2 {
+    position: absolute;
+    bottom: 2%;
+    right: 25%;
 }
 
 #banner.switch {
@@ -56,6 +176,10 @@ main section {
     padding: 1em;
 }
 
+.dark-dash {
+    border: 1px rgb(77, 150, 172) dashed;
+}
+
 a {
     text-decoration: none;
 }
@@ -75,12 +199,12 @@ section a {
     line-height: 1.1em;
     display: inline-block;
     padding: .5em;
-    color: orange;
+    color: white;
 }
 
 section a:hover {
-    background-color: orange;
-    color: #333;
+    background-color: #A6B6F2;
+    color: white;
 }
 
 section.switch a {
@@ -97,13 +221,14 @@ button {
     top: 20px;
     right: 20px;
     padding: 12px;
-    background-color: orange;
+    background-color: white;
     color: #333;
     border: 1px solid transparent;
 }
 
 button:hover {
-    background-color: coral;
+    background-color: #A6B6F2;
+    color: white;
     cursor: pointer;
 }
 
@@ -113,6 +238,6 @@ button.switch {
 }
 
 button.switch:hover {
-    background-color: #333;
+    background-color: #9DE5DD;
     color: rgb(235, 235, 235)
 }
