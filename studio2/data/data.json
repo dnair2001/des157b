@@ -1,0 +1,51 @@
+{
+    "point1" : {
+        "date" : "August 29th - September 4th",
+        "applications" : "45",
+        "mood" : 0,
+        "interviews": "0"
+    },
+    "point2" : {
+        "date" : "September 5th - 11th",
+        "applications" : "21",
+        "mood" : 4,
+        "interviews": "0"
+    },
+    "point3" : {
+        "date" : "September 12th - 18th",
+        "applications" : "25",
+        "mood" : 2,
+        "interviews": "2"
+    },
+    "point4" : {
+        "date" : "September 19th - 25th",
+        "applications" : "12",
+        "mood" : 1,
+        "interviews": "1"
+    },
+    "point5" : {
+        "date" : "September 26th - 2rd",
+        "applications" : "5",
+        "mood" : 1,
+        "interviews": "2"
+    },
+    "point6" : {
+        "date" : "October 3rd - 9th",
+        "applications" : "7",
+        "mood" : 2,
+        "interviews": "2"
+    },
+    "point7" : {
+        "date" : "October 10th - 16th",
+        "applications" : "1",
+        "mood" : 4,
+        "interviews": "0"
+    },
+    "point8" : {
+        "date" : "October 17th - 23rd",
+        "applications" : "0",
+        "mood" : 3,
+        "interviews": "0"
+    }
+}
+    
