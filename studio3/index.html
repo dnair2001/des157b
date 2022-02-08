@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+
+    <!-- add the link to AOS CSS here -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Pacifico&family=Poppins:wght@100;300&family=Sacramento&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!--Leaflet Library-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- add the link to AOS JS here -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Leaflet script-->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <script src="script.js" defer></script>
+
+    <title>Example 1</title>
+</head>
+
+<body>
+
+    <!-- Empty sections are used to push content down -->
+    <section id="top">
+        <div>
+            <p id="title">My Favorite Moments at UC Davis &#128512;</p>
+            <p id="scroll">Scroll to continue</p>
+            <!-- <i class="fal fa-angle-down"></i> -->
+            <!-- <i class="fas fa-chevron-down"></i> -->
+        </div>
+    </section>
+    <!-- <p style="width: 30vw;height: 65%;">hello</p> -->
+
+    <!-- <section></section> -->
+    <!--Section 1-->
+    <section class="image-section">
+        <div data-aos="fade-right">
+            <img class="image-style" src="images/davis_move_in.png">
+        </div>
+        <div data-aos="fade-left" id="review1">
+            <h1 class="text">Move In Day</h1>
+            <p class="date-text">September 2019</p>
+            <p class="body-text">I was so excited to start my first day of college with my new roommates!</p>
+            <!-- <p>hello</p> -->
+        </div>
+        <!-- <div data-aos="fade-right" id="roadrunner">roadrunner!</div> -->
+    </section>
+
+    <!--Section 2-->
+    <section class="image-section">
+        <div data-aos="fade-right">
+            <img class="image-style" src="images/davis_farmers_market.png">
+        </div>
+        <div data-aos="fade-left" id="review2">
+            <h1 class="text">Farmer's Market Trip</h1>
+            <p class="date-text">October 2019</p>
+            <p class="body-text">My first time at the farmer's market with friends! It was a great start to fall quarter.</p>
+        </div>
+        <!-- <div data-aos="fade-right" id="roadrunner">roadrunner!</div> -->
+    </section>
+
+    <!--Section 3-->
+    <section class="image-section">
+        <div data-aos="fade-right">
+            <img class="image-style" src="images/davis_pumpkin.png">
+        </div>
+        <div data-aos="fade-left" id="review3">
+            <h1 class="text">Pumpkin Patch</h1>
+            <p class="date-text">October 2019</p>
+            <p class="body-text">During fall quarter, I broke my arm so I was in the process of recovering but that
+                didn't stop me from having fun!
+            </p>
+        </div>
+        <!-- <div data-aos="fade-right" id="roadrunner">roadrunner!</div> -->
+    </section>
+
+    <!--Section 4-->
+    <section class="image-section">
+        <div data-aos="fade-right">
+            <img class="image-style" src="images/davis_kpop.png">
+        </div>
+        <div data-aos="fade-left" id="review4">
+            <h1 class="text">Kpop Club</h1>
+            <p class="date-text">December 2019</p>
+            <p class="body-text">I joined the KPOP club and met a lot of cool new people! There were many cool socials too.
+            </p>
+        </div>
+        <!-- <div data-aos="fade-right" id="roadrunner">roadrunner!</div> -->
+    </section>
+
+    <!--Section 5-->
+    <section class="image-section">
+        <div data-aos="fade-right">
+            <img class="image-style" src="images/davis_spring.png">
+        </div>
+        <div data-aos="fade-left" id="review5">
+            <h1 class="text">Spring Time!</h1>
+            <p class="date-text">March 2020</p>
+            <p class="body-text">Davis is so pretty in the spring! This was a few weeks before the pandemic hit and we had to go home.
+            </p>
+        </div>
+            <!-- <div data-aos="fade-right" id="roadrunner">roadrunner!</div> -->
+    </section>
+
+    <!--Section 5-->
+    <section class="image-section">
+        <div data-aos="fade-right">
+            <img class="image-style" src="images/davis_orientation.png">
+        </div>
+        <div data-aos="fade-left" id="review6">
+            <h1 class="text">Orientation Leader</h1>
+            <p class="date-text">September 2021</p>
+            <p class="body-text">Fast forward about 2 years later, I was now an orientation leader for the incoming freshman as well as a junior. Time flies!
+            </p>
+        </div>
+            <!-- <div data-aos="fade-right" id="roadrunner">roadrunner!</div> -->
+    </section>
+
+    <!--Section 5-->
+    <section id="map-section">
+        <div data-aos="fade-right" id="map"></div>
+        <div data-aos="fade-left" id="review7">
+            <h1 id="food1" class="text">Top 6 Favorites in Davis</h1>
+            <ol class="list-text">
+                <li>Thai Canteen</li>
+                <li>Sam's Mediterreanenan</li>
+                <li>Temple Coffee</li>
+                <li>Crepeville</li>
+                <li>Dutch Bros</li>
+                <li>Lazi Cow</li>
+             </ol>
+        </div>
+        <!-- <div data-aos="fade-right" id="roadrunner">roadrunner!</div> -->
+    </section>
+
+</body>
+
+</html>

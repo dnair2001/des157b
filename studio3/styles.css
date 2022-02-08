@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    /* background-image: url("images/tucson.png"); */
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* color: #669DAE; */
+    overflow-x: hidden;
+}
+
+#title {
+    padding: 0 4%;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    margin: 0;
+}
+
+.text {
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    margin-left: 4%;
+    font-size: 45px;
+    color: white;
+}
+
+.date-text {
+    /* font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-left: 4%;
+    font-size: 30px;
+    color: white;  */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 4%;
+    font-size: 27px;
+    color: white;
+}
+
+.body-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 22px;
+    color: white; 
+}
+
+.list-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 30px;
+    color: white; 
+}
+
+#map { 
+    height: 80%;
+    width: 50%;
+    padding: 10%;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+.image-section {
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#map-section {
+    padding-top: 5%;
+}
+
+.image-style {
+    /* justify-content: center; */
+    /* width: 50vw;
+    height: 90vh; */
+    /* margin-right: 3%; */
+    border: 5px solid #b4ced8;
+    border-radius: 3%;
+}
+
+#review1 {
+    background-color: #669DAE;
+    width: 30vw;
+    height: 65%;
+    margin-left: 1%;
+}
+
+#review2 {
+    background-color: #669DAE;
+    width: 40vw;
+    height: 65%;
+    /* margin-right: 5%; */
+    margin-left: 1%;
+}
+
+#review3 {
+    background-color: #669DAE;
+    width: 30vw;
+    height: 65%;
+    margin-left: 1%;
+}
+
+#review4 {
+    background-color: #669DAE;
+    width: 30vw;
+    height: 65%;
+    margin-left: 1%;
+}
+
+#review5 {
+    background-color: #669DAE;
+    width: 30vw;
+    height: 65%;
+    margin-left: 1%;
+}
+
+#review6 {
+    background-color: #669DAE;
+    width: 40vw;
+    height: 65%;
+    margin-left: 1%;
+}
+
+#review7 {
+    background-color: #669DAE;
+    height: 80%;
+    width: 40%;
+    /* margin-left: 3%; */
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.seen {
+    visibility: visible;
+    font-size: 70px;
+    color: white;
+}
+
+section:first-of-type {
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 100vw;
+    height: 100vh;
+    font-size: 20vw;
+    opacity: .9;
+}
+
+#top {
+    font-size: 6vw;
+    text-align: center;
+    align-items: center;
+    background-color:#669DAE;
+}
+
+#scroll {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vw;
+    text-decoration: underline;
+    color: white;
+}
+
+/* so that the animation takes place higher in the viewport */
+
+/* section div {
+    padding-bottom: 3in;
+} */
+
+.asterisk {
+    position: absolute;
+    font-size: 20vw;
+}
+
+#roadrunner {
+    font-size: 15vw;
+}
