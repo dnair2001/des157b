@@ -2,48 +2,7 @@
 
 Parse.initialize("780TP5VOUodOaclLqTDGZFcVcyJCS6aFNDS19F7c","VNEcSwhx9Pok25g7pGad8UVzboFRsaPuWBXToFCe"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
 Parse.serverURL = 'https://parseapi.back4app.com/'
-
-// placePins();
-// async function placePins() {
-//     const person = Parse.Object.extend("Person");
-//     const query = new Parse.Query(person); 
-//     try {
-//         const results = await query.ascending('name').find();
-//         //console.log(results);
-//         results.forEach(function(eachFriend){
-//             const id = eachFriend.id;
-//             const address = (eachFriend.get('name'));
-          
-//             const geocoder = new google.maps.Geocoder();
-//             geocoder.geocode({ address: address }, (results, status) => {
-//                 if (status === "OK") {
-//                     // Display response in the console 
-//                     address_string = address; 
-//                     console.log("PRINTING"); 
-//                     console.log(address_string.lat);  
-
-    
-   
-//                     resultsMap.setCenter(address_string);
-        
-//                     // Add the marker with the obtained location
-//                     new google.maps.Marker({
-//                         map: resultsMap,
-//                         position: address,
-//                     });
-//                 } else {
-//                     alert("Geocode error: " + status);
-//                 }
-//             });
-           
-
-//         });
-//     } catch (error) {
-//         console.error('Error while fetching friends', error);
-//     }
-// }
-
-
+console.log("HELLO")
 
 // 1. Initialize a basic map
 function initMap() {
@@ -57,6 +16,7 @@ function initMap() {
 
     // 2. Initialize the GeoCoder API
     const geocoder = new google.maps.Geocoder();
+    ; 
     retrievePerson();
     // 3. So when the user clicks on the submit BTN, geocode the given address if possible
     document.getElementById("submit-btn").addEventListener("click", () => {
@@ -120,8 +80,9 @@ async function saveNewPerson(address_string, address) {
         try {
           console.log(result.id);
           const results = await person.get(result.id);
-          
+          alert("Please refresh the page to see your pin on the map!");
           leafletMap(result); 
+
       }  
       catch{
           console.log("ERROR"); 

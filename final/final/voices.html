@@ -16,7 +16,7 @@
       <a href="index.html" class="active">Home &#10084;</a>
       <div id="myLinks">
         <a href="hotline.html">Hotline</a>
-        <a href="voices.html">Alarms</a>
+        <a href="voices.html">Voice Recordings</a>
         <a href="new_map.html">Map</a>
         <a href="story.html">Share Your Story</a>
       </div>
@@ -25,29 +25,25 @@
       </a>
     </div>
     <section id="header">
-        <h1>Voices &<br> Sounds</h1>
-        <h2>Universtiy of California, Davis</h2>
+        <h1>Voices<br> Recordings</h1>
+        <!-- <h2>Universtiy of California, Davis</h2> -->
     </section>
     <section style="display: flex; padding: 2%;">
         <i style="display: left;padding: 5px;color: #9E0761;" class="fa-solid fa-play sound-heading" id="recording-1"></i>
-        <h1 style="display: right;" class="sound-heading">If Someone Is Following You</h1>
+        <h1 style="display: right;" class="sound-heading">Play this if someone is following you</h1>
     </section>
     <hr>
     <section style="display: flex; padding: 2%;">
         <i style="display: left;padding: 5px;color: #9E0761;" class="fa-solid fa-play sound-heading" id="recording-2"></i>
-        <h1 style="display: right;" class="sound-heading">If You Feel Unsafe In An Uber</h1>
+        <h1 style="display: right;" class="sound-heading">Play this if you feel unsafe in an Uber</h1>
     </section>
     <hr>
     <section style="display: flex; padding: 2%;">
         <i style="display: left;padding: 5px;color: #9E0761;" class="fa-solid fa-play sound-heading" id="recording-3"></i>
-        <h1 style="display: right;" class="sound-heading">Alarm 1</h1>
+        <h1 style="display: right;" class="sound-heading">Play this if you feel unsafe in an Uber</h1>
     </section>
     <hr>
-    <section style="display: flex; padding: 2%;">
-        <i style="display: left;padding: 5px;color:#9E0761;" class="fa-solid fa-play sound-heading" id="recording-4"></i>
-        <h1 style="display: right;" class="sound-heading">Alarm 2</h1>
-    </section>
-    <hr>
+  
     <script>
         function myFunction() {
           var x = document.getElementById("myLinks");
@@ -63,16 +59,16 @@
 
             // variable for the element, then for the sound
             const playbutton1 = document.getElementById('recording-1');
-            const recording1 = new Audio('../final/audio/followingYou.mp3');
+            const recording1 = new Audio('../audio/followingYou.mp3');
 
             const playbutton2 = document.getElementById('recording-2');
-            const recording2 = new Audio('../final/audio/unsafeUber.mp3');
+            const recording2 = new Audio('../audio/unsafeUber.mp3');
 
             const playbutton3 = document.getElementById('recording-3');
-            const recording3 = new Audio('../final/audio/followingYou.mp3');
+            const recording3 = new Audio('../audio/followingYou.mp3');
 
             const playbutton4 = document.getElementById('recording-4');
-            const recording4 = new Audio('../final/audio/followingYou.mp3');
+            const recording4 = new Audio('../audio/followingYou.mp3');
 
             //sound plays when the mousebutton is down
             playbutton1.addEventListener('click', function () {
