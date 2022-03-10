@@ -117,3 +117,29 @@ h3{
       padding-left: 2em; 
       padding-top: 0.2em; 
   }
+
+    
+#submit-btn{
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    background-color: #690B5F; 
+    opacity: 100%; 
+    border-radius: 5px;  
+    border: 2px;
+    color: white;
+    padding: 5px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #submit-btn:hover{
+      opacity: 50%; 
+
+  }
+
+  #floating-panel{
+      padding: 10px;
+  }
+  
